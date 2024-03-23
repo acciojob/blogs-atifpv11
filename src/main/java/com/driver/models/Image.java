@@ -8,7 +8,7 @@ public class Image {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer imageId;
+    private Integer Id;
 
     private String dimensions;
 
@@ -30,12 +30,12 @@ public class Image {
         this.blog=null;
     }
 
-    public Integer getImageId() {
-        return imageId;
+    public Integer getId() {
+        return Id;
     }
 
-    public void setImageId(Integer imageId) {
-        this.imageId = imageId;
+    public void setId(Integer Id) {
+        this.Id = Id;
     }
 
     public String getDimensions() {

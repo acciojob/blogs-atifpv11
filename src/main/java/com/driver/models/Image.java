@@ -34,11 +34,15 @@ public class Image {
         return imageId;
     }
 
-    public String getDimension() {
+    public void setImageId(Integer imageId) {
+        this.imageId = imageId;
+    }
+
+    public String getDimensions() {
         return dimensions;
     }
 
-    public void setDimension(String dimension) {
+    public void setDimensions(String dimension) {
         this.dimensions = dimension;
     }
 

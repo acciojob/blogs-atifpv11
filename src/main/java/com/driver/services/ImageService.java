@@ -32,7 +32,7 @@ public class ImageService {
         int count=0;
         String[] dimarr=screenDimensions.split("X");
         Image image=imageRepository2.findById(id).get();
-        String dimensionOfImage=image.getDimension();
+        String dimensionOfImage=image.getDimensions();
         String[] imgarr=dimensionOfImage.split("X");
         int imgx=Integer.parseInt(imgarr[0]);
         int imgy=Integer.parseInt(imgarr[1]);
